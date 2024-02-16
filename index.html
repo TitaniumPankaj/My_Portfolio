@@ -1,0 +1,221 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Personal Portfolio Website</title>
+            <link rel="stylesheet" href="styles.css">
+            <script src="https://kit.fontawesome.com/985a92189f.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+           <div id="header">
+             <div class="hero">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#about">SKILLS</a></li>
+                        <li><a href="#about">EXPERIENCE</a></li>
+                        <li><a href="#about">EDUCATION</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="detel">
+                    <h1>I,m Pankaj</h1>
+                    <p>This is my official portfolio website.
+                    <br> I have konwledge about Data Structures and Algorithm.
+                    <br> I have experience of building Website using HTML, CSS & JS<i class="fa-solid fa-hashtag"></i>
+                    <br> Now I am learning UI?/UX and, 
+                    <br> continuously learning new technologies and tools.
+                    <br>I am also Learning Compititive programing.<i class="fa-solid fa-code"></i>
+                    </p>  
+                    <a href="https://drive.google.com/file/d/1gmsb0nhGrYXG0iT9yzTi-vFucfJSZx7L/view?usp=sharing">DOWNLOAD CV</a> 
+                </div>
+                <div class="images">
+                    <img src="images/shape.png" class="shape">
+                    <img src="images/boy.png" class="boy">   
+                </div>
+              </div>
+            </div>
+                <!-- ---------------- ABOUT SECTION --------------------->
+                <div id="about">
+                    <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                        <img src ="images/pk.jpg" width="300" height="400"> 
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title" style="margin-left: -5px;" >About me</h1>
+                            <p style="margin-top: 10px;">Hi there! I'm</p> <p style="color: rgb(255, 132, 0);"> PANKAJ</p>
+                            A passionate and aspiring Computer Science Engineering student.<br>
+                            Currently pursuing my B.Tech in CSE from AKTU, Kucknow,<br>
+                            I find immense joy in exploring the world of technology 
+                            and solving complex problems.</p>
+
+                            <diV class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </diV>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Learning UI?UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Learning Building Andriod/ios apps</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Jan 2024 Current</span><br>Web designing Internship in CODSOFT</li>
+                                    <li><span>Jan 2024 Current</span><br>Web designing Internship in CODE CASA</li>
+                                    <li><span>2022-2023</span><br>Team leader in College level Coading Compitition</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2021-2025</span><br>Persuing B.tech(CSE) from RKGITM Ghaziabad</li>
+                                    <li><span>2021</span><br>12<sup>th</sup> (PCM) from CBSE</li>
+                                    <li><span>2019-2020</span><br>English Commnucation Course</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div> 
+                    </div>
+                <!-------------------SERVICES--------------------->
+                <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Designing</h2>
+                            <p>
+                                Ecommerce Development,Web Design, Customized website.
+                            </p>
+                            <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-photo-film"></i>
+                            <h2>Photos/Videos Editing</h2>
+                            <p>for Youtube Videos, Instagrams etc.</p>
+                            <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store-ios"></i>
+                            <h2>App Design</h2>
+                            <p>
+                                Mini Projects, Creating apps.
+                            </p>
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-------------------portfolio------------> 
+                <div id="portfolio">
+                    <div class="container">
+                    <h1 class="sub-title">Projects/My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work-1.png">
+                            <div class="layer">
+                                <h3>Weather App</h3>
+                                <p>This weather app give high accuracy<br> of weather</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-3.png">
+                            <div class="layer">
+                                <h3>DevDetecive App</h3>
+                                <p>In this App will  find the Github Profile <br>of anyone </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See more</a>
+                    </div>
+                </div>
+                <!-------------------CONTACT-------------------->
+                <div id="contact">
+                <div class="container"> 
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p style="margin-left:40px;"><i class="fa-solid fa-envelope"></i>pankajsagar9528@gmail.com</p>
+                            <p style="margin-left:40px;"><i class="fa-solid fa-phone"></i>9528321755</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/profile.php?id=100055313293077&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="https://www.instagram.com/pankajsagar09/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/pankajsagar09/"><i class="fa-brands fa-linkedin"></i></a> 
+                                <a href="https://github.com/TitaniumPankaj"><i class="fa-brands fa-github"></i></a> 
+
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+               </div>
+                <!----------------COPYRIGHT----->
+                <div class="copyright">
+                    <p>copyright <span>&#169;</span> <i class="fa-solid fa-heart"></i>Portfolio. Made by Pankaj AKTU Student</p>
+                </div>
+                <script>
+                    var tablinks = document.getElementsByClassName("tab-links");
+                    var tabcontents = document.getElementsByClassName("tab-contents");
+                    
+                    function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                    }
+                </script>
+
+                <script>
+                    var sidemeu = document.getElementById("sidemenu")
+
+                    function openmenu(){
+                        sidemeu.style.right ="0";
+                    }
+                    function closemenu(){
+                        sidemeu.style.right ="-200px";
+                    }
+                </script>
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbzA3FJ_s51qtwhdXPdqLkm9SwPiISfNtvSQE-Jxy5yGILVrs950xWEk9P4-NPZogGC8Zg/exec'
+                    const form = document.forms['submit-to-google-sheet']
+                    const msg= document.getElementById("msg")
+                    form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => {
+                            msg.innerHTML= " Message Submitted Succesfully"
+                            setTimeout(function() {
+                                msg.innerHTML = ""
+                            },5000)
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                  </script>
+        </body>
+        </html>
